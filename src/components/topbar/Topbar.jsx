@@ -1,6 +1,6 @@
 import React from 'react'
 import "./topbar.css"
-import AutoAwesomeMosaicRoundedIcon from '@mui/icons-material/AutoAwesomeMosaicRounded';
+import {NotificationsNone} from '@material-ui/icons';
 
 export default function Topbar() {
   return (

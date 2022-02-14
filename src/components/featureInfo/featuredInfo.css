@@ -1,0 +1,85 @@
+.featured{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.featuredItemTotal{
+    flex: 0.1;
+    margin: 0px 20px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #44597D;
+}
+
+.featuredItemScore{
+    flex: 0.5;
+    margin: 0px 10px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #A0C0D7;
+}
+
+.featuredItemRetention{
+    flex: 0.5;
+    margin: 0px 10px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #DE7456;
+}
+
+.featuredTitle{
+    font-size: 20px;
+    margin-left: 25px;
+    color: #fff;
+    padding-top: 50px;
+}
+
+.featureClientContainer{
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.featuredClient{
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 25px;
+    color: #fff;
+}
+
+.featuredClientRate{
+    display: flex;
+    align-items: center;
+    margin-left: 250px;
+    border-radius: 15px;
+    background-color: #EDF7EE;
+}
+
+.featuredScoreRate{
+    display: flex;
+    align-items: center;
+    margin-left: 250px;
+    border-radius: 15px;
+    background-color: #FEECEB;
+}
+
+.featuredRetentionRate{
+    display: flex;
+    align-items: center;
+    margin-left: 250px;
+    border-radius: 15px;
+    background-color: #EDF7EE;
+}
+
+.featuredIcon{
+    font-size: 14px;
+    margin-left: 5px;
+    color: #FEECEB;
+}
+
+.featuredIcon.negative{
+    font-size: 14px;
+    margin-left: 5px;
+    color: #EDF7EE;
+}
