@@ -13,32 +13,33 @@ export default function Sidebar(){
                     <div className = "sidebarMenu">
             
                         <u1 className = "sidebarList">
-
+                        <img src = "https://img.texasmonthly.com/2021/11/walker-county-jane-doe-sherri-jarvis.jpg?auto=compress&crop=faces&fit=fit&fm=webp&h=0&ixlib=php-1.2.1&q=45&w=1850" className="profile"/>
                             <li className = "sidebarListItem">
-                                <AutoAwesomeMosaicRounded />
-                                DashBroadd
+                                <AutoAwesomeMosaicRounded sx = {{color: "white" }}/>
+                                <span className="iconName">Dashboard</span>
                             </li>
                             <li className = "sidebarListItem active">
-                                <AccountBoxRounded />
-                                Client
+                                <AccountBoxRounded sx = {{color: "white" }}/>
+                                <span className="iconName">Clients</span>
                             </li>
                             <li className = "sidebarListItem">
-                                <CreditCardRounded />
-                                Sales
+                                <CreditCardRounded sx = {{color: "white" }}/>
+                                <span className="iconName">Sales</span>
                             </li>
                             <li className = "sidebarListItem">
-                                <InsertChartRounded />
-                                Analytics
+                                <InsertChartRounded sx = {{color: "white" }}/>
+                                <span className="iconName">Analytics</span>
                             </li>
                             <li className = "sidebarListItem">
-                                <SettingsRounded />
-                                Settings
+                                <SettingsRounded sx = {{color: "white" }}/>
+                                <span className="iconName">Settings</span>
                             </li>
                         </u1>
                         
                     </div>
+                    
                 </div>  
-                <img src = "https://img.texasmonthly.com/2021/11/walker-county-jane-doe-sherri-jarvis.jpg?auto=compress&crop=faces&fit=fit&fm=webp&h=0&ixlib=php-1.2.1&q=45&w=1850" className="profile"/>
+                
             </div>
         </div>
     )

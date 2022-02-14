@@ -1,30 +1,52 @@
 .sidebar{
     flex: 1;
     width: 100%;
+    height: auto;
     background-color: #2B3240;
     position: sticky;
-    top:50px;
 }
+.sidebarWrapper{
+    height: 100%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .sidebarList{
     list-style:none;
     padding:150px;
 }
 
+.iconName{
+    font-size: 17px;
+    margin-left: 5px;
+    color: #fff;
+
+}
+
 .sidebarListItem{
-    padding: 20px;
+    padding: 5px;
     cursor: pointer;
+    margin: 1px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
 }
 
 .sidebarListItem.active,
 .sidebarListItem:hover{
     background-color: #0189FF;
+    border-radius: 5px;
 }
 
 .profile{
-    position: absolute;
-    width: 70px;
-    height: 70px;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    margin-right: 280%;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
-    margin: 2px 0 0 2px;
     box-shadow: 0 0 0 2px #fff;
 }

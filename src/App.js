@@ -6,12 +6,11 @@ import "./App.css"
 function App() {
   return(
     <div>
-      
+      <div className="container">
         <Sidebar/>
-        
-        <div className="others">
-          others
+         <Home />
       </div>
+  
         
   
   

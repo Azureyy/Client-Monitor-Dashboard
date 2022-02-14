@@ -10,7 +10,8 @@ export default function FeaturedInfo() {
             <div className= "featureClientContainer">
                 <span className="featuredClient">108</span>
                 <span className="featuredClientRate">
-                    3.2% <TrendingUpRounded />
+                     <TrendingUpRounded sx = {{color: "#037E09" }}/> 
+                     <span className="rate">3.2%</span>
                 </span>
             </div>
         </div>
@@ -19,7 +20,8 @@ export default function FeaturedInfo() {
             <div className= "featureClientContainer">
                 <span className="featuredClient">+43</span>
                 <span className="featuredScoreRate">
-                    1.5% <TrendingDownRounded className="featuredIcon"/>
+                    <TrendingDownRounded sx = {{color: "#B2322A" }}/>
+                    <span className="rateNegative">1.5%</span>
                 </span>
             </div>
         </div>
@@ -28,7 +30,8 @@ export default function FeaturedInfo() {
             <div className= "featureClientContainer">
                 <span className="featuredClient">95%</span>
                 <span className="featuredRetentionRate">
-                    3.2% <TrendingUpRounded className="featuredIcon negative"/>
+                    <TrendingUpRounded sx = {{color: "#037E09" }}/>
+                    <span className="rate">3.2%</span>
                 </span>
             </div>
         </div>
