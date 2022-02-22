@@ -28,6 +28,7 @@ export default function ClientCreate() {
                     label="First Name"
                     placeholder="First Name"
                     multiline
+                    
                     />
                 </div>
                 <div>
@@ -47,8 +48,9 @@ export default function ClientCreate() {
                     />
                 </div>
                 <div>
-                    <Button variant = "contained" sx={{ml:2, mt:2}}
-                    style = {{backgroundColor: "#2F3D55"}}>
+                    <Button variant = "contained" sx={{ml:2, mt:2, bgcolor:"#44597D",':hover':{
+                        bgcolor:"#2B3240"
+                    }}}>
                         CREATE
                     </Button>
                 </div>

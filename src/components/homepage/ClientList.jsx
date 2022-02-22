@@ -2,14 +2,15 @@ import * as React from 'react';
 import { DataGrid,  GridToolbarContainer,
   GridToolbarFilterButton, getGridNumericOperators, } from '@mui/x-data-grid';
 import PropTypes from 'prop-types';
-import IconButton from '@mui/material/IconButton';
 import TextField from '@mui/material/TextField';
-import { Box, ThemeProvider, createTheme } from '@mui/system';
+import { Box} from '@mui/system';
 import Typography from '@mui/material/Typography'
+import Button from '@mui/material/Button'
+import { useState } from 'react';
 
 const columns = [
   { field: 'id', headerName: 'id', type: 'number', width: 150 },
-  { field: 'name', headerName: 'Name', width: 150 },
+  { field: 'name', headerName: 'Name', width: 250 },
   {
     field: 'transaction',
     headerName: 'Last Transaction',
@@ -22,6 +23,7 @@ const columns = [
     headerName: 'Net Promoter Score',
     type: 'number',
     width: 200,
+    
     editable: true,
   },
   {
@@ -75,8 +77,19 @@ const filterOperators = getGridNumericOperators().filter(
 export default function DataGridDemo() {
   const [filterButtonEr, setFilterButtonEr] = React.useState(null);
   const name = "All Clients";
+  // const [addClient, setAddClient] = React.useState({
+  //   firstname: '',
+  //   lastname: '',
+  //   contact:''
+  // })
+  // const handleAddClient = (event) =>{
+  //   const newFormClient = {...addClient};
+  //   newFormClient[name] = this.firstname.current.value + this.lastname.current.value;
+  //   setAddClient(newFormClient);
+  // }
+
   return (
-    <div style={{ height: '40%', paddingRight: '3%', paddingLeft: '3%'}}>
+    <div style={{ height: '40%', paddingRight: '3%', paddingLeft: '3%', textAlign:"left"}}>
       <Box sx={{ margin: 2 }} />
 
       <DataGrid
@@ -108,6 +121,13 @@ export default function DataGridDemo() {
         disableColumnMenu
          
       />
+       
+
     </div>
+    
+    
+
+
+
   );
 }
