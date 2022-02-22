@@ -1,32 +1,31 @@
 .sidebar{
-    flex: 1;
-    width: 100%;
-    height: auto;
+    width: 400px;
+    height: 1000px;
     background-color: #2B3240;
     position: sticky;
+    z-index: 0;
+    margin: 0;
+    padding: 0;
 }
+
 .sidebarWrapper{
-    height: 100%;
-    padding: 0px 20px;
-    display: flex;
-    align-items: center;
+    padding-top: 20px;
+    padding-left: 8%;
+    padding-right: 21%;
     justify-content: space-between;
 }
 
-.sidebarList{
-    list-style:none;
-    padding:150px;
-}
-
 .iconName{
-    font-size: 17px;
+    font-size: 19px;
     margin-left: 5px;
     color: #fff;
 
 }
 
 .sidebarListItem{
-    padding: 5px;
+    padding-left: 6%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     cursor: pointer;
     margin: 1px;
     margin-top: 10px;
@@ -42,11 +41,30 @@
 }
 
 .profile{
-    margin-top: 20%;
-    margin-bottom: 20%;
-    margin-right: 280%;
-    width: 80px;
-    height: 80px;
+    width: 27%;
+    height: 11%;
     border-radius: 50%;
     box-shadow: 0 0 0 2px #fff;
+    position: absolute;
 }
+.photo{
+    display: flex;
+    padding-left: 8%;
+    padding-top: 15%;
+
+}
+
+
+.name{
+    color: #fff;
+    padding-left: 125px;
+    font-size: 170%;
+    font-weight: 200%;
+}
+
+.manager{
+    color: #fff;
+    font-size: 60%;
+    font-weight: lighter;
+}
+

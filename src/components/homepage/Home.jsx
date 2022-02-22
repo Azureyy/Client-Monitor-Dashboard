@@ -1,5 +1,6 @@
 import FeaturedInfo from "../featureInfo/FeaturedInfo"
 import ClientList from "./ClientList"
+import ClientCreate from "./ClientCreate"
 import "./home.css"
 
 
@@ -8,7 +9,7 @@ export default function home() {
     <div className="home">
       <FeaturedInfo />
       <ClientList />
-    < div className="homeWidgets"></div>
+      <ClientCreate />
     </div>
   )
 }

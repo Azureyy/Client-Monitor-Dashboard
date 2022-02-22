@@ -1,97 +1,106 @@
 .featured{
     margin-top: 30px;
-    padding: 15px;
+    padding-left: 3%;
+    padding-top: 2%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    height: 15%;
     display: flex;
     border-radius: 15px;
     justify-content: space-between;
 }
 
 .featuredItemTotal{
-    flex: 1;
-    margin: 0px 7px;
-    padding: 20px;
+    width: 29%;
+    height: 75%;
+    padding-left: 3%;
+    padding-top: 2%;
     border-radius: 17px;
     background-color: #44597D;
 }
 
 .featuredItemScore{
-    flex: 1;
-    margin: 0px 7px;
-    padding: 20px;
+    width: 29%;
+    height: 75%;
+    padding-left: 3%;
+    padding-top: 2%;
     border-radius: 17px;
+    border-left: 100px;
     background-color: #A0C0D7;
 }
 
 .featuredItemRetention{
-    flex: 1;
-    margin: 0px 7px;
-    padding: 20px;
+    padding-left: 3%;
+    padding-top: 2%;
+    width: 29%;
+    height: 75%;
     border-radius: 17px;
     background-color: #DE7456;
 }
 
 .featuredTitle{
-    font-size: 20px;
+    font-size: 150%;
     display: flex;
     color: #fff;
     margin-top: auto;
 }
 
 .featureClientContainer{
-    margin: 10px 0px;
+    margin: 4% 0px;
     display: flex;
     align-items: center;
 }
 
 .featuredClient{
-    font-size: 30px;
+    font-size: 200%;
     font-weight: 500;
     color: #fff;
 }
 
 .featuredClientRate{
     display: flex;
-    margin-left: 150px;
+    text-align: center;
+    margin-left: 42%;
     border-radius: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     background-color: #EDF7EE;
 }
 
 .featuredScoreRate{
     display: flex;
-    align-items: center;
-    margin-left: 150px;
+    text-align: center;
+    margin-left: 42%;
     border-radius: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     background-color: #FEECEB;
 }
 
 .featuredRetentionRate{
     display: flex;
-    align-items: center;
-    margin-left: 150px;
+    text-align: center;
+    margin-left: 42%;
     border-radius: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     background-color: #EDF7EE;
 }
 
 .rateNegative{
-    font-size: 20px;
-    margin-left: 5px;
+    font-size: 120%;
+    margin-left: 5%;
     color: #B2322A;
 }
 
 .rate{
-    font-size: 20px;
-    margin-left: 5px;
+    font-size: 120%;
+    margin-left: 5%;
     color: #037E09;
 }
